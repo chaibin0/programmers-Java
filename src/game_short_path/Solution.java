@@ -24,7 +24,6 @@ public class Solution {
 	int visit[][];
 	public int solution(int[][] maps) {
 		int answer = -1;
-		int count=1;
 		visit = new int[maps.length][maps[0].length];
 		Deque<Data> position = new ArrayDeque<>();
 		Data end = new Data(maps[0].length, maps.length);
