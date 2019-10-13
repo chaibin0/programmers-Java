@@ -1,4 +1,4 @@
-package boj_12947;
+package q12947;
 
 class Solution {
 	public boolean solution(int x) {
@@ -7,6 +7,7 @@ class Solution {
 		int harshad = getHarshad(value);
 		answer = x % harshad == 0 ? true : false;
 		return answer;
+
 	}
 
 	private int getHarshad(String value) {
