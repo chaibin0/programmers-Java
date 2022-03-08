@@ -3,7 +3,7 @@ package q72410;
 class Solution {
     public String solution(String new_id) {
         NewId newId = new NewId(new_id);
-        String answer = newId.toLowerCase()
+        return newId.toLowerCase()
                 .removeEtcCharacter()
                 .removeContinuePoint()
                 .removeFirstPoint()
@@ -11,7 +11,6 @@ class Solution {
                 .subliceId(15)
                 .checkSmallId()
                 .getId();
-        return answer;
     }
 
     class NewId {
