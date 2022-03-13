@@ -5,10 +5,6 @@ import java.util.*;
 class Solution {
 
     private static String EMPTY_CONDITION = "-";
-    private static Set<String> languages = new HashSet<>(Arrays.asList("cpp", "java", "python"));
-    private static Set<String> jobs = new HashSet<>(Arrays.asList("backend", "frontend"));
-    private static Set<String> careers = new HashSet<>(Arrays.asList("junior", "senior"));
-    private static Set<String> soulFoods = new HashSet<>(Arrays.asList("chicken", "pizza"));
 
     public int[] solution(String[] info, String[] query) {
         int[] answer = new int[query.length];
